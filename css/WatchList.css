@@ -1,0 +1,5 @@
+thead, tbody, td, th {
+    margin-top: 100 px;
+    padding: 10px;
+    border: 2.5px solid black;
+}

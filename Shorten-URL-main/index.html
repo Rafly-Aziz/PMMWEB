@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>URL Shortener</h1>
+        <form>
+            <label for="longUrl">Masukan URL:</label>
+            <br>
+            <div class="inputForm">
+                <input type="url" id="longUrl" name="longUrl" required>
+                <span id="deleteIcon">&#10006;</span>
+            </div>
+            <br>
+            <button type="submit">Shorten</button>
+
+        </form>
+        <div class="urlShort" id="addButton">
+            <p class="shortUrl" id="shortUrl">Your shortened URL will appear here</p>
+        </div>
+
+        <div id="myPopup" class="popup">
+            <span class="popup-message">Text copied to clipboard</span>
+        </div>
+    </div>
+    <script src=" shortener.js"></script>
+
+    <footer>
+        <h3>Muhammad Rafsanjani Aziz</h3>
+    </footer>
+
+</body>
+
+</html>
